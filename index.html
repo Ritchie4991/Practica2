@@ -10,6 +10,7 @@
     
 
 <body>
+    <div class="table">
     <nav>
     <table border="1px">
         <tr  id="ok">
@@ -19,7 +20,7 @@
             <th><a href="url">Actividades extracurriculares</a></th>
         </tr>
         </table>
-    </nav>
+        </nav></div>
     
     <main>
     <section>
@@ -91,6 +92,10 @@ h1{
     margin-bottom:5px;
     }
     
+ .table{
+     float:left;
+    }
+    
  h2{
      text-align:center;
      font-size:20px;
@@ -101,14 +106,15 @@ h1{
    }
  #name{
      text-align:center;
-     
+     text-decoration:line-through;
+     font-size:40px;
     }
 .perfil {
     width: 300px;
     height: 900px;
     background-color:aqua;
     float:left; 
-    padding:20px;
+    padding:15px;
 }
     
 .educa{
@@ -116,6 +122,7 @@ h1{
     }
 .final{
     float:bottom;
+    display:flow-root;
     }
 
 h4{
